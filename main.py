@@ -13,7 +13,7 @@ class Horoscope:
     # Creating a label for the title
         self.title_label = Label(text="Discover Your Horoscope", font=('Noto Serif', 20), bg='cyan', fg='black')
         self.title_label.pack(pady=20)
-
+        #deneme
         # Creating a label for the entry prompt
         self.Month = Label(text='Enter your Birth Month,and Year', font=('Merriweather', 12), bg='gold', fg='red')
         self.Month.pack(pady=10)
